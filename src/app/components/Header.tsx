@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import SiteVisits from "./SiteVisits";
-import logoImage from "../../assets/logo.png";
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,13 +17,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 sm:h-24">
-          {/* Logo */}
-          
-<img
-  src={logoImage}
-  alt="PROJECTS 360°"
-  className="h-16 sm:h-20"
-/>
+         
 
 
           {/* Desktop Navigation */}
